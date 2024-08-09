@@ -4,6 +4,7 @@
 }
 
 .outer-container {
+    border-radius: 15px;
     margin: auto;
     margin-top: 10%;
     width: 575px;
@@ -15,9 +16,9 @@
 
 
 
-.inner-container {
+.inner-columns {
     width: 50%;
-    height: 80%;
+    height: 40%;
     display: flex;
     justify-content: space-around;
     color: #EEE;
@@ -40,7 +41,6 @@
     font-size: 90px;
     font-style: normal;
     font-weight: 400;
-    
     line-height: 135px; /* 140.74% */
 }
 
@@ -61,4 +61,34 @@
     font-style: normal;
     font-weight: 400;
     padding: 7%;
+}
+
+.new-game-box {
+    margin-top: 5%;
+}
+
+.new-game-style {
+    margin: auto;
+    vertical-align: center;
+    display: flex;
+    position: relative;
+    flex-shrink: 0;
+    background: green;
+    color: yellow;
+    justify-content: space-around;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    width: 60px;
+    height: 25px;
+    font-family: Verdana;
+}
+
+.remaining-time-box {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    color: palevioletred;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
 }
