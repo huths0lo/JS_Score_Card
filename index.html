@@ -3,14 +3,52 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
-            <div>
+        <div class="outer-container">
+
+
+            <div class="inner-container">
+                
+                
+            <div class="home-score-container">
                 <h3>HOME</h3>
+
+                <div class='score-boxes'>
+                    <div id="home-score-value">0</div>
+                </div>
+                
+                <div class="button-box">
+                    <button onclick='addHome(1)' class="button-style">+1</button>
+                    <button onclick='addHome(2)' class="button-style">+2</button>
+                    <button onclick='addHome(3)' class="button-style">+3</button>
+
+                </div> 
+
+
+                </div>
             </div>
-            <div>
+            <div class="inner-container">
+
+
+            <div class="guest-score-container">
                 <h3>GUEST</h3>
+    
+                    <div class='score-boxes'>
+                        <div id="guest-score-value">0</div>
+                    </div>
+                    
+                    <div class="button-box">
+                        <button onclick='addGuest(1)' class="button-style">+1</button>
+                        <button onclick='addGuest(2)' class="button-style">+2</button>
+                        <button onclick='addGuest(3)' class="button-style">+3</button>
+    
+                    </div> 
+    
+    
+                    </div>          
+                </div>
             </div>
-        </div>
+
+            </div>
         <script src="index.js"></script>
     </body>
 </html>
